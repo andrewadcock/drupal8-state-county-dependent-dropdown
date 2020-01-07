@@ -1,0 +1,7 @@
+<?php
+
+function county_selector_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  if ('node_contract_award_form' == $form_id) {
+    $form['#attached']['library'][] = 'county_selector/county_selector';
+  }
+}

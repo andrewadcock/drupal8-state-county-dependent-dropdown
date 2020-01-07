@@ -1,0 +1,14 @@
+# Default value.
+field.value.county_selector_area:
+  type: mapping
+  label: Default value
+  mapping:
+    state:
+      type: string
+      label: State
+    county:
+      type: string
+      label: County
+    city:
+      type: string
+      label: City

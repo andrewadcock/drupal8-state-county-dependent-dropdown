@@ -1,0 +1,19 @@
+name: 'County Selector'
+description: 'Provides State and County selector related configuration. '
+type: module
+core: 8.x
+dependencies:
+  - better_exposed_filters
+  - datetime
+  - field
+  - field_group
+  - image
+  - language
+  - menu_ui
+  - node
+  - path
+  - taxonomy
+  - text
+  - user
+  - views
+package: NCAP Custom

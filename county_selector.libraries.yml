@@ -1,0 +1,7 @@
+county_selector:
+  version: 1
+  js:
+    js/county_selector.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
